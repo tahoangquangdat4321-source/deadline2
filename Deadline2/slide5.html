@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Fiddler on the Roof JR.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            border: 2px solid #333;
+            width: 900px;
+        }
+        .header img {
+            width: 100%;
+            display: block;
+        }
+        
+        
+        .nav-bar {
+            padding: 10px 15px;
+            display: flex;
+            gap: 10px;
+            border-top: 1px solid #ccc;
+        }
+        .nav-bar img {
+            height: 35px;
+            cursor: pointer;
+        }
+
+    
+        .thumbnails {
+            padding: 0 15px 15px 15px;
+            display: flex;
+            gap: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+        .thumbnail img {
+            height: 50px;
+            width: auto;
+            border: 1px solid transparent;
+        }
+        .thumbnail a:hover img {
+            border: 1px solid #333;
+        }
+
+    
+        .main-image {
+            padding: 15px;
+            text-align: left;
+        }
+        .main-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+    
+        .caption {
+            padding: 0 15px 15px 15px;
+            font-family: "Times New Roman", serif;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <img src="fiddler.jpg" alt="Fiddler on the Roof">
+    </div>
+    <div class="nav-bar">
+        <a href="index.html"><img src="home.jpg" alt="Home"></a>
+        <a href="Slide1.html"><img src="start.jpg" alt="Start"></a>
+        <a href="Slide4.html"><img src="back.jpg" alt="Back"></a> 
+        <a href="Slide6.html"><img src="forward.jpg" alt="Forward"></a>
+        <a href="Slide6.html"><img src="end.jpg" alt="End"></a>
+    </div>
+    <div class="thumbnails">
+        <a href="Slide1.html" class="thumbnail"><img src="thumb1.jpg" alt="Thumb 1"></a>
+        <a href="Slide2.html" class="thumbnail"><img src="thumb2.jpg" alt="Thumb 2"></a>
+        <a href="Slide3.html" class="thumbnail"><img src="thumb3.jpg" alt="Thumb 3"></a>
+        <a href="Slide4.html" class="thumbnail"><img src="thumb4.jpg" alt="Thumb 4"></a>
+        <a href="Slide5.html" class="thumbnail"><img src="thumb5.jpg" alt="Thumb 5"></a>
+        <a href="Slide6.html" class="thumbnail"><img src="thumb6.jpg" alt="Thumb 6"></a>
+    </div>
+    <div class="main-image">
+        <img src="slide5.jpg" alt="Slide 5">
+    </div>
+</div>
+
+</body>
+</html>
